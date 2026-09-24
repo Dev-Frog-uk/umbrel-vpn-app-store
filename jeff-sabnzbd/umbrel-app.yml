@@ -1,1 +1,24 @@
-
+manifestVersion: 1.1
+id: jeff-sabnzbd
+category: networking
+name: SABnzbd
+version: "1.0.0"
+tagline: Open SABnzbd running through Gluetun
+description: >-
+  Dashboard launcher for the existing SABnzbd instance running inside
+  Gluetun's network namespace. This app does not start another SABnzbd
+  container or modify the VPN configuration.
+developer: LinuxServer.io
+website: https://sabnzbd.org
+dependencies: []
+repo: https://github.com/Dev-Frog-uk/umbrel-vpn-app-store
+support: https://github.com/Dev-Frog-uk/umbrel-vpn-app-store/issues
+port: 8180
+gallery: []
+releaseNotes: Initial dashboard launcher.
+path: ""
+defaultUsername: ""
+defaultPassword: ""
+submitter: Jeff
+submission: https://github.com/Dev-Frog-uk/umbrel-vpn-app-store
+icon: https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/svg/sabnzbd.svg
