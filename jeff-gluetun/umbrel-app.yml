@@ -1,19 +1,18 @@
 manifestVersion: 1.1
-id: jeff-sabnzbd
+id: jeff-gluetun
 category: networking
-name: SABnzbd
+name: Gluetun WebUI
 version: "1.0.0"
-tagline: Open SABnzbd running through Gluetun
+tagline: Open the Gluetun VPN management interface
 description: >-
-  Dashboard launcher for the existing SABnzbd instance running inside
-  Gluetun's network namespace. This app does not start another SABnzbd
-  container or modify the VPN configuration.
-developer: LinuxServer.io
-website: https://sabnzbd.org
+  Dashboard launcher for the existing Gluetun WebUI. This app does not
+  start another Gluetun container or modify the VPN configuration.
+developer: Community
+website: https://github.com/qdm12/gluetun
 dependencies: []
 repo: https://github.com/Dev-Frog-uk/umbrel-vpn-app-store
 support: https://github.com/Dev-Frog-uk/umbrel-vpn-app-store/issues
-port: 8180
+port: 3100
 gallery: []
 releaseNotes: Initial dashboard launcher.
 path: ""
@@ -21,4 +20,4 @@ defaultUsername: ""
 defaultPassword: ""
 submitter: Jeff
 submission: https://github.com/Dev-Frog-uk/umbrel-vpn-app-store
-icon: https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/svg/sabnzbd.svg
+icon: https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/svg/gluetun.svg
