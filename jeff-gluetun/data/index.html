@@ -1,1 +1,60 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta
+    name="viewport"
+    content="width=device-width, initial-scale=1"
+  >
+  <title>Opening Gluetun WebUI</title>
 
+  <style>
+    :root {
+      color-scheme: dark;
+      font-family: system-ui, sans-serif;
+    }
+
+    body {
+      min-height: 100vh;
+      margin: 0;
+      display: grid;
+      place-items: center;
+      background: #101114;
+      color: white;
+    }
+
+    main {
+      max-width: 32rem;
+      padding: 2rem;
+      text-align: center;
+    }
+
+    a {
+      display: inline-block;
+      margin-top: 1rem;
+      padding: 0.8rem 1.2rem;
+      border-radius: 0.7rem;
+      background: white;
+      color: #111;
+      font-weight: 650;
+      text-decoration: none;
+    }
+  </style>
+</head>
+
+<body>
+  <main>
+    <h1>Opening Gluetun WebUI…</h1>
+    <p>The Gluetun interface should open automatically.</p>
+    <a id="target-link" href="#">Open Gluetun WebUI</a>
+  </main>
+
+  <script>
+    const target =
+      "http://" + window.location.hostname + ":3000";
+
+    document.getElementById("target-link").href = target;
+    window.location.replace(target);
+  </script>
+</body>
+</html>
