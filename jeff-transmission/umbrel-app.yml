@@ -1,1 +1,24 @@
-
+manifestVersion: 1.1
+id: jeff-transmission
+category: networking
+name: Transmission
+version: "1.0.0"
+tagline: Open Transmission running through Gluetun
+description: >-
+  Dashboard launcher for the existing Transmission instance running
+  inside Gluetun's network namespace. This app does not start another
+  Transmission container or modify the VPN configuration.
+developer: LinuxServer.io
+website: https://transmissionbt.com
+dependencies: []
+repo: https://github.com/Dev-Frog-uk/umbrel-vpn-app-store
+support: https://github.com/Dev-Frog-uk/umbrel-vpn-app-store/issues
+port: 9191
+gallery: []
+releaseNotes: Initial dashboard launcher.
+path: ""
+defaultUsername: umbrel
+defaultPassword: ""
+submitter: Jeff
+submission: https://github.com/Dev-Frog-uk/umbrel-vpn-app-store
+icon: https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/svg/transmission.svg
